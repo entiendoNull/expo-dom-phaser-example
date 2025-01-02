@@ -3227,6 +3227,11 @@ event-target-shim@^5.0.0, event-target-shim@^5.0.1:
   resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
   integrity sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
 
+eventemitter3@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-5.0.1.tgz#53f5ffd0a492ac800721bb42c66b841de96423c4"
+  integrity sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA==
+
 exec-async@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/exec-async/-/exec-async-2.2.0.tgz#c7c5ad2eef3478d38390c6dd3acfe8af0efc8301"
@@ -5695,6 +5700,18 @@ path-type@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
+
+phaser3spectorjs@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/phaser3spectorjs/-/phaser3spectorjs-0.0.8.tgz#a7996eebc9c498b6d9d19ecda35f16ad3918a8a8"
+  integrity sha512-0dSO7/aMjEUPrp5EcjRvRRsEf+jXDbmzalPeJ6VtTB2Pn1PeaKc+qlL/DmO3l1Dvc5lkzc+Sil1Ta+Hkyi5cbA==
+
+phaser@^3.87.0:
+  version "3.87.0"
+  resolved "https://registry.yarnpkg.com/phaser/-/phaser-3.87.0.tgz#209f1673b311a3f76d59f14b785699709a8f9cf5"
+  integrity sha512-AyI1b3T5fp05gzf6WUmu2FNqaZL+Y7w88yBRLf7YZXF9bncUSHpnDrupnTGoPqy/RKHRLBcay7zWeqQ2wiMWcw==
+  dependencies:
+    eventemitter3 "^5.0.1"
 
 picocolors@^1.0.0, picocolors@^1.1.0, picocolors@^1.1.1:
   version "1.1.1"

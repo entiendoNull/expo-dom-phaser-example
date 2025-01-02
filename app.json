@@ -3,7 +3,7 @@
     "name": "expo-dom-refs",
     "slug": "expo-dom-refs",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
@@ -11,6 +11,9 @@
     "ios": {
       "supportsTablet": true
     },
+    "assets": [
+      "./assets/images/"
+    ],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
