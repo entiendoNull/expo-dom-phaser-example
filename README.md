@@ -15,3 +15,5 @@ This example partly follows the [Phaser tutorial](https://phaser.io/tutorials/ma
 It runs with Expo Go (only tested it on iOS).
 
 Check out Expo and Phaser if you're interested to learn more.
+
+![IMG_0552](https://github.com/user-attachments/assets/37e8ff9c-2516-440c-90f2-a4fc715e44f6)
