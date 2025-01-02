@@ -12,14 +12,10 @@ function Index() {
 	const gameRef = React.useRef<GameRef>(null);
 	const insets = useSafeAreaInsets();
 	const [points, setPoints] = React.useState(0);
-	const [isComplete, setIsComplete] = React.useState(false);
 
 	function collectedStarHandler(newPoints: number) {
 		Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
 		setPoints(newPoints);
-		if (newPoints >= 120) {
-			setIsComplete(true);
-		}
 	}
 
 	function moveLeftHandler() {
@@ -40,7 +36,7 @@ function Index() {
 
 	return (
 		<View style={styles.container}>
-			<Score points={points} isComplete={isComplete} />
+			<Score points={points} isComplete={points >= 120} />
 			<GameWrapper
 				ref={gameRef}
 				collectedStar={collectedStarHandler}
