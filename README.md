@@ -6,7 +6,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 Just a simple example of how to use the [Expo DOM Component](https://docs.expo.dev/guides/dom-components/) with [Phaser](https://phaser.io/).
 
-It uses Expo DOM Components and leverage from the experimental [useDOMImperativeHandle](https://docs.expo.dev/guides/dom-components/#passing-refs) to pass the game functions (DOM component) to the parent component (native).
+It leverages from the experimental [useDOMImperativeHandle](https://docs.expo.dev/guides/dom-components/#passing-refs) to pass the game functions (DOM component) to the parent component (native).
 
 The UI (buttons and score) is implemented with React Native components, while the game itself runs with Phaser within a DOM component.
 
